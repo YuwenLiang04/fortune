@@ -5,7 +5,50 @@
 
         <title>ProfileOfYuanbao</title>
         <style>
-            /* 设置段落(p)的字体 */
+            /* 默认样式，适合桌面 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8d7b2; /* 浅橙色背景 */
+    color: #4F4F4F; /* 深灰色文字 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 增加段落的字体 */
+p {
+    font-family: 'Dancing Script', cursive; /* 可爱的字体 */
+    font-size: 18px;
+    text-align: center;
+}
+
+/* 响应式设计：适应不同屏幕 */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* 字体稍微小一些 */
+    }
+
+    h1 {
+        font-size: 28px; /* 调整h1字体大小 */
+    }
+
+    h2 {
+        font-size: 24px; /* 调整h2字体大小 */
+    }
+
+    h3 {
+        font-size: 20px; /* 调整h3字体大小 */
+    }
+
+    img {
+        width: 100%; /* 图片宽度适应屏幕 */
+        height: auto;
+    }
+
+    video {
+        width: 100%; /* 视频宽度适应屏幕 */
+        height: auto;
+    }
+}            /* 设置段落(p)的字体 */
 p {
     font-family: 'Dancing Script', cursive; /* 可爱的字体 */
     font-size: 18px;
