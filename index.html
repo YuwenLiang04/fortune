@@ -42,16 +42,17 @@
                     height: auto;
                 }
 
-                /* Flexbox 设置：每行显示两张图片 */
+                /* Flexbox 设置：每行显示两张图片，每张占屏幕的10% */
                 .image-container {
                     display: flex;
                     flex-wrap: wrap; /* 允许换行 */
-                    justify-content: space-around; /* 使图片间有适当间隔 */
+                    justify-content: space-between; /* 每行两张图片，之间有空间 */
+                    gap: 2%; /* 图片间的间距 */
                 }
 
                 .image-container img {
-                    width: 48%; /* 每张图片占宽度的48%，保证两张图片在一行 */
-                    margin-bottom: 10px; /* 图片底部间隔 */
+                    width: 10%; /* 每张图片占屏幕的10% */
+                    height: auto;
                 }
             }
 
