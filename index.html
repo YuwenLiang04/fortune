@@ -7,49 +7,45 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f8d7b2; /* 浅橙色背景 */
-            color: #4F4F4F; /* 深灰色文字 */
+            background-color: #f8d7b2;
+            color: #4F4F4F;
             margin: 0;
-            padding: 20px; /* 给页面添加一些内边距，避免紧贴屏幕边缘 */
-            max-width: 1200px; /* 限制最大宽度 */
+            padding: 20px;
+            max-width: 1200px;
             margin-left: auto;
-            margin-right: auto; /* 居中显示 */
+            margin-right: auto;
         }
 
-        /* 增加段落的字体 */
         p {
-            font-family: 'Dancing Script', cursive; /* 可爱的字体 */
+            font-family: 'Dancing Script', cursive;
             font-size: 18px;
             text-align: center;
             margin-top: 20px;
             line-height: 1.5;
         }
 
-        /* 图片容器 */
         .image-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            gap: 15px; /* 增加图片间距 */
-            margin-bottom: 30px; /* 添加容器底部间距 */
+            gap: 15px;
+            margin-bottom: 30px;
         }
 
-        /* 每张图片最大宽度限制 */
         .image-container img {
-            max-width: 48%; /* 每张图片最大占据容器宽度的48% */
-            height: auto; /* 保持图片的纵横比 */
-            border-radius: 8px; /* 圆角 */
+            max-width: 45%;
+            height: auto;
+            border-radius: 8px;
         }
 
-        /* 响应式设计：适应不同屏幕 */
         @media (max-width: 768px) {
             body {
-                font-size: 14px; /* 字体稍微小一些 */
-                padding: 15px; /* 内边距缩小 */
+                font-size: 14px;
+                padding: 15px;
             }
 
             .image-container img {
-                max-width: 48%; /* 保持图片宽度的比例，避免过大 */
+                max-width: 100%;
             }
 
             p {
@@ -77,14 +73,6 @@
         h3 {
             font-size: 24px;
         }
-
-        /* 让图片在电脑屏幕中显示适当的大小 */
-        .responsive-image {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
     </style>
 </head>
 <body>
@@ -120,46 +108,6 @@
                 <li>mom</li>
                 <li>to be touched on the head and the upper part of the tail</li>
             </ul>
-            <h3>things that Yuanbao hates</h3>
-            <ul>
-                <li>cat food</li>
-                <li>men of all ages</li>
-                <li>meals without freeze-dried canned food</li>
-            </ul>
-            <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROCT_zusc-h3MAdw080Dd_oONtPr-Q3XQ_TQ&s" class="responsive-image">
-            </figure>
-
-            <h3>age: 3/4, being adopted</h3>
-            <h3>gender: castrated male, castrated on October 25, 2023</h3>
-            <h3>sexuality: straight</h3>
-            <h3>mother: Unknown pianist in the world Xinyu</h3>
-            <h3>father: Not available yet, will be updated later</h3>
-            <h3>ex-wife: qianduoduo, reason of divorce: Because of their emotional discord, Qianduoduo was unwilling to mate with Yuanbao and even beat Yuanbao, so Yuanbao's mother separated them and they had to divorce.</h3>
-            <h3>pros:
-                1. He buried his poop very deep
-                2. He can make the sound of calling mom 
-            </h3>
-            <h3>cons:
-                He will tear the sofa
-            </h3>
-        </section>
-
-        <section>
-            <h2>About Yuanbao's Great Mom Xinyu</h2>
-            <h3>When she's 18</h3>
-            <div class="image-container">
-                <img src="https://github.com/YuwenLiang04/fortune/blob/main/WechatIMG8492.jpg?raw=true" alt="Xinyu at 18">
-                <img src="https://github.com/YuwenLiang04/fortune/blob/main/WechatIMG8493.jpg?raw=true" alt="Xinyu another photo at 18">
-            </div>
-            <h3>When she's in uni</h3>
-            <div class="image-container">
-                <img src="https://github.com/YuwenLiang04/fortune/blob/main/WechatIMG8487.jpg?raw=true" alt="Xinyu in university">
-                <img src="https://github.com/YuwenLiang04/fortune/blob/main/WechatIMG8489.jpg?raw=true" alt="Xinyu in university">
-            </div>
-            <div class="image-container">
-                <img src="https://github.com/YuwenLiang04/fortune/blob/main/WechatIMG8491.jpg?raw=true" alt="Xinyu university picture">
-            </div>
         </section>
     </main>
 </body>
