@@ -37,21 +37,16 @@
                     font-size: 20px; /* 调整h3字体大小 */
                 }
 
-                img {
-                    width: 100%; /* 图片宽度适应屏幕 */
-                    height: auto;
-                }
-
-                /* Flexbox 设置：每行显示两张图片，每张占屏幕的10% */
+                /* 设置每个图片占屏幕的 10% 宽度，且每行显示两张 */
                 .image-container {
                     display: flex;
                     flex-wrap: wrap; /* 允许换行 */
-                    justify-content: space-between; /* 每行两张图片，之间有空间 */
-                    gap: 2%; /* 图片间的间距 */
+                    justify-content: flex-start; /* 每行显示两个 */
+                    gap: 2%; /* 设置图片间的间距 */
                 }
 
                 .image-container img {
-                    width: 10%; /* 每张图片占屏幕的10% */
+                    width: 10vw; /* 图片占宽度的 10% */
                     height: auto;
                 }
             }
@@ -112,6 +107,7 @@
                 <!-- 创建一个包含所有图片的容器 -->
                 <div class="image-container">
                     <img src="https://github.com/YuwenLiang04/fortune/blob/main/WechatIMG8458.jpg?raw=true.jpg" alt="Yuanbao by himself.">
+                    <img src="https://github.com/YuwenLiang04/fortune/blob/main/WechatIMG8460.jpg?raw=true.jpg" alt="Yuanbao another photo">
                 </div>
 
                 <p>Yuanbao and his mom</p>
